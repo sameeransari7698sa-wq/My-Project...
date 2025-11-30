@@ -1,0 +1,6 @@
+num = 9
+for i in range(5, 0, -1):
+    for j in range(i):
+        print(num, end="")
+    print()
+    num -= 2
